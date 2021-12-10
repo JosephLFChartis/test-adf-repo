@@ -1,0 +1,10 @@
+{
+	"name": "key_vault_onc_iq_2",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://key-vault-onc-iq-2.vault.azure.net/"
+		}
+	}
+}
