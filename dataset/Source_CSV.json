@@ -1,0 +1,24 @@
+{
+	"name": "Source_CSV",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "prdanalyticsadf_DataLakeStorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "ADF Pipeline Values.csv",
+				"folderPath": "Dev/Source",
+				"fileSystem": "test-adf"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}

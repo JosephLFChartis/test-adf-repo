@@ -1,0 +1,22 @@
+{
+	"name": "Destination_CSV",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "prdanalyticsadf_DataLakeStorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "Dev/Destination",
+				"fileSystem": "test-adf"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
